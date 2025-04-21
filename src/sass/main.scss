@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'Maison Neue Extended';
+  src: url('/font/MaisonNeue-ExtendedDemiBold.woff2') format('woff2'),
+      url('/font/MaisonNeue-ExtendedDemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Maison Neue Medium';
+  src: url('/font/MaisonNeue-Medium.woff2') format('woff2'),
+      url('/font/MaisonNeue-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Maison Neue Book';
+  src: url('/font/MaisonNeue-Book.woff2') format('woff2'),
+      url('/font/MaisonNeue-Book.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Maison Neue Extended bold';
+  src: url('/font/MaisonNeue-ExtendedBold.woff2') format('woff2'),
+      url('/font/MaisonNeue-ExtendedBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scrollbar-color: #010f31 #00081c;
+  scrollbar-width: 15px;
+}
+
+@keyframes change {
+  0%,
+  12.66%,
+  100% {
+    transform: translateZ(0);
+  }
+
+  16.66%,
+  29.32% {
+    transform: translate3d(0, -25%, 0);
+  }
+
+  33.32%,
+  45.98% {
+    transform: translate3d(0, -50%, 0);
+  }
+
+  49.98%,
+  62.64% {
+    transform: translate3d(0, -75%, 0);
+  }
+
+  66.64%,
+  79.3% {
+    transform: translate3d(0, -50%, 0);
+  }
+
+  83.3%,
+  95.96% {
+    transform: translate3d(0, -25%, 0);
+  }
+}
+
+body {
+  background: #00081c;
+}
